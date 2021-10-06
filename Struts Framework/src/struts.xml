@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+	<package name="default" extends="struts-default">
+		<action name="register" class="com.abcjobs.RegisterAction">
+			<result name="success">/thanks.jsp</result>
+			<result name="error">/error.jsp</result>			
+		</action>
+
+		<action name="login" class="com.abcjobs.LoginAction">
+			<result name="success">/userdashboard.jsp</result>
+			<result name="error">/login.jsp</result>
+		</action>
+
+		<action name="profile"
+			class="com.abcjobs.FetchDetailsAction">
+			<result name="success">/profile.jsp</result>
+		</action>
+
+		<action name="update"
+			class="com.abcjobs.FetchDetailsAction">
+			<result name="success">/updateprofile.jsp</result>
+		</action>
+
+		<action name="updated" class="com.abcjobs.UpdateProfileAction">
+			<result name="success" type="chain">updateAction</result>
+		</action>
+
+		<action name="updateAction"
+			class="com.abcjobs.FetchDetailsAction">
+			<result name="success">/profile.jsp</result>
+		</action>
+
+		<action name="logout" class="com.abcjobs.LoginAction"
+			method="logout">
+			<result name="logout">/login.jsp</result>
+		</action>
+
+		<action name="search" class="com.abcjobs.SearchAction">
+			<result name="success">/searchresult.jsp</result>
+		</action>
+
+		<action name="searchh" class="com.abcjobs.SearchAction">
+			<result name="success">/searchresult.jsp</result>
+		</action>
+
+		<action name="peopleprofile" class="com.abcjobs.PeopleProfileAction">
+			<result name="searchsuccess">/peopleprofile.jsp</result>
+		</action>
+
+		<action name="resetpsd" class="com.abcjobs.ForgotMailAction">
+			<result name="success">/otpconfirm.jsp</result>
+		</action>
+
+
+		<action name="otpverification"
+			class="com.abcjobs.OtpVerifyAction">
+			<result name="OtpProceed">/updatepassword.jsp</result>
+			<result name="error">/error.jsp</result>
+		</action>
+
+		<action name="UpdatePass"
+			class="com.abcjobs.UpdatePasswordAction">
+			<result name="updatepass">/forgotthankyou.jsp</result>
+		</action>
+
+		<action name="adminLogin" class="com.abcjobs.AdminLoginAction">
+			<result name="success">/admindashboard.jsp</result>
+		</action>
+
+		<action name="viewUsers" class="com.abcjobs.AdminSelectAction">
+			<result name="success">/adminview.jsp</result>
+		</action>
+
+		<action name="deleteUser" class="com.abcjobs.AdminDeleteAction">
+			<result name="success" type="chain">viewUsers</result>
+		</action>
+
+		<action name="adminview" class="com.abcjobs.AdminSelectAction">
+			<result name="success">/adminview.jsp</result>
+		</action>
+
+	</package>
+	
+	</struts>
