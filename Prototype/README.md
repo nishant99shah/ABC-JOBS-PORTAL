@@ -1,1 +1,12 @@
 
+![job search result](https://user-images.githubusercontent.com/38612350/136279719-dacdcc1b-7610-4aec-86e7-1124f8c67c83.jpg)
+![login](https://user-images.githubusercontent.com/38612350/136279721-7f23504e-524f-4c50-9682-313b078a30b6.jpg)
+![people search result](https://user-images.githubusercontent.com/38612350/136279724-fb1fbf51-f0ff-402d-a884-cf56920ee904.jpg)
+![profile](https://user-images.githubusercontent.com/38612350/136279726-c2b41765-4dbf-49de-aed3-6f3df9bc7b33.jpg)
+![prople profile](https://user-images.githubusercontent.com/38612350/136279727-24ac9cf1-6c9d-4dbb-afb2-c35dcbfef2c7.jpg)
+![register](https://user-images.githubusercontent.com/38612350/136279730-cca24b75-5495-4115-a098-a108ad150da7.jpg)
+![search profile and job (dashboard)](https://user-images.githubusercontent.com/38612350/136279732-df3763d6-8366-4e98-8258-e9487c078b78.jpg)
+![edit profile](https://user-images.githubusercontent.com/38612350/136279735-0584cd79-5993-46ff-a27d-19de68ef9523.jpg)
+![forgot password](https://user-images.githubusercontent.com/38612350/136279736-afb613b0-00fd-40ce-8add-0333e38fb336.jpg)
+![home](https://user-images.githubusercontent.com/38612350/136279738-09932a11-e9ee-4862-a797-f9031fda50d3.jpg)
+![job profile](https://user-images.githubusercontent.com/38612350/136279739-386fc251-4616-4fdc-9459-761506e11fff.jpg)
